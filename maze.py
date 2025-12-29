@@ -1,13 +1,7 @@
-from instances import Entities, Items, Unlocks, North, South, East, West
-from utils import (
-	plant,
-	harvest,
-	move,
-	get_world_size,
-	get_entity_type,
-	num_unlocked,
-	use_item,
-)
+from builtins import *
+
+
+# -------------------------------------------------------------------------------
 
 def run():
 	"""Main loop that continuously generates and solves mazes."""

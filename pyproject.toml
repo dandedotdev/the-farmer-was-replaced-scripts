@@ -1,0 +1,9 @@
+[tool.ruff.lint]
+ignore = [
+    "F403", # Allow `from builtins import *` for game scripts
+    "F405", # Allow names from star imports
+]
+
+[tool.pyright]
+reportUndefinedVariable = false
+reportWildcardImportFromLibrary = false
