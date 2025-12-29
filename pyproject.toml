@@ -2,6 +2,7 @@
 ignore = [
     "F403", # Allow `from builtins import *` for game scripts
     "F405", # Allow names from star imports
+    "E711", # Allow `== None` comparisons for game environment
 ]
 
 [tool.pyright]
