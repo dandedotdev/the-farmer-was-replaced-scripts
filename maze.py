@@ -154,3 +154,6 @@ def opposite(direction):
 	"""Return the opposite direction."""
 	opposites = {North: South, South: North, East: West, West: East}
 	return opposites[direction]
+
+
+run()
